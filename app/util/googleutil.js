@@ -51,7 +51,7 @@ function appendData(auth, spreadsheet, range, data_values, callback) {
     auth: auth,
     spreadsheetId: spreadsheet,
     range: range,
-    valueInputOption: "USER_ENTERED",
+    valueInputOption: "RAW",
     resource: {
       values: [ data_values ]
     }
